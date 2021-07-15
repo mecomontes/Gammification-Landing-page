@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Gamification-Project</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="https://holberton-gamification.herokuapp.com">
+      Gamification-Project
+      <!-- <img src="./img/logo.png" alt="logo"> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavdropDown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#intro">Intro</a></li>
+        <li class="nav-item"><a href="#features">Features</a></li>
+        <li class="nav-item"><a href="#demo">Demo</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <a name="intro"></a>
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="col-md-12 logo-div">
+      <a href="https://join.skillshare.com/general/?coupon=2WFREEGOOGLEB&utm_source=Google&utm_medium=paidsearch&utm_campaign=Brand_ROW_14DayFree&utm_term=skillshare&matchtype=e">
+        <img id="logo-skill" src="./img/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Skillshare Gamification App</h1>
+          <h4 class="mb-5">Attractive and intuitive data visualization app for users to monitor their learning.</h4>
+          <p><em>Be The Main Character In Your Learning Process With Skillshare</em></p>
+          <!-- <h3>About the App</h3> -->
+        </div>
+      </div>
+      <button class="btn btn-success btn-lg" type="button">
+        <a class="badge badge-success" href="https://holberton-gamification.herokuapp.com" alt="Deployed app">Deployed version on Heroku</a>
+      </button>
+    </div>
+  </header>
+
+  <!-- Icons Grid -->
+  <a name="features"></a>
+  <section class="features-icons bg-light text-center">
+    <h1>Features</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="summary-container container row">
+            <div class="summary col-md-10">
+              <img id="summary" src="img/summaryBar.svg" alt="summary">
+            </div>
+            <div class="col-sm-2 button-summary">
+              <button class="btn btn-outline-success btn-colla" type="button" data-toggle="collapse" data-target="#summary-info" aria-expanded="false" aria-controls="multiCollapse1">Summary Bar</button>
+            </div>
+            <div class="col-md-10 collapse multi-collapse" id="summary-info">
+              <h3>Summary Bar</h3>
+              <p>When users finish watching a lesson or a class, they will get points that will allow them to increase their score and level up. In this section, users will see their score, the number of classes and lessons they have completed, the number of days in a row they have used the platform and the skill with the highest growth in the current week.</p>
+            </div>           
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="col-lg-12">
+            <div class="container row">
+              <div class="col-md-10">
+                <img id="road" src="img/roadMap2.svg" alt="roadmap">
+              </div>
+              <div class="col-sm-2 button-road">
+                <button class="btn btn-outline-success btn-colla" type="button" data-toggle="collapse" data-target="#roadmap-info" aria-expanded="false" aria-controls="multiCollapse1">Road Map</button>
+              </div>
+              <div class="col-md-10 collapse multi-collapse" id="roadmap-info">
+                <h3>Road Map</h3>
+                <p>There are six levels associated to ranges of score. Users will be able to visualize their progress in this road as they spend more time in the platform, getting a mental and positional representation of their progress.</p>
+              </div>  
+            </div>
+          </div>
+          <div class="container row">
+            <div class="col-lg-10">
+              <img id="visualizations" src="img/skillCloud.svg" alt="skill-cloud"/>
+              <img id="visualizations" src="img/skillPoints.svg" alt="skill-points"/>
+              <img id="visualizations" src="img/skillProfile.svg" alt="skill-points"/>
+            </div>
+            <div class="col-sm-2 button-visual">
+              <button class="btn btn-outline-success btn-colla" type="button" data-toggle="collapse" data-target="#visualizations-info" aria-expanded="false" aria-controls="multiCollapse1">Visualizations</button>
+            </div>
+            <div class="col-md-10 collapse multi-collapse" id="visualizations-info">
+              <h3>Visualizations</h3>
+              <p>
+                <b>Bar chart:</b> <br>Allows users to see the scores of the last 7 days they have visited the platform. They could follow their daily progress, having points of comparison to get pills of motivation to keep pushing.<br> 
+                <b>Radar chart:</b> <br>Displays the top six skills with the highest scores, giving the Skillshare user’s avatar a video-game style characterization. Showing continuous changes related to their avatar’s skills’ development, fostering appropriation of the feeling of progress and learning.<br>
+                <b>Bubble chart:</b> <br>Displays the 30 skills with the highest scores, providing a global perspective of the skills acquired and the amount of time spent on them. This gives users a sense of accomplishment.
+              </p>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Showcases -->
+  <a name="demo"></a>
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Video-Demo</h2>
+          <p class="lead mb-0">All in your profile page, step by step in your learning process</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <a name="about"></a>
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">About</h2>
+      <p>The use of online learning platforms has skyrocketed in the last years. One of the reasons these platforms attract users is their flexibility. This flexibility comes with a challenge: keeping users engaged and motivated to finish their courses since there is no pressure to do so.
+        This is why we looked for inspiration in the dashboards of video games and we studied theories of motivation to design a profile page where users can visualize the time they have invested in learning and the skills they have acquired. These visuals of how much they have worked gives users a sense of accomplishment that boosts their motivation.</p>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/sandra.jpeg" alt="">
+            <h5>Sandra Macias</h5>
+            <p class="font-weight-light mb-0">Philosopher & Full Stack Developer</p>
+            <a href="hhttps://github.com/s-macias">
+              <img class="icon" src="img/GitHub-Mark.png"/>
+            </a>
+            <a href="https://www.linkedin.com/in/sandra-macias/">
+              <img class="icon" src="img/linkedin.png"/>
+            </a>
+            <a href="https://twitter.com/pandoriana18">
+              <img class="icon" src="img/twitter.png"/>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/luis_vargas.jpg" alt="">
+            <h5>Luis Miguel Vargas Guevara</h5>
+            <p class="font-weight-light mb-0">Designer & Full Stack Developer</p>
+            <a href="https://github.com/luismvargasg">
+              <img class="icon" src="img/GitHub-Mark.png"/>
+            </a>
+            <a href="https://www.linkedin.com/in/luismvargasg/">
+              <img class="icon" src="img/linkedin.png"/>
+            </a>
+            <a href="https://twitter.com/luismvargasg1">
+              <img class="icon" src="img/twitter.png"/>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/juan.jpeg" alt="">
+            <h5>Juan Camilo Acevedo</h5>
+            <p class="font-weight-light mb-0">Psychologist & Full Stack Developer</p>
+            <a href="https://github.com/acamilojuan">
+              <img class="icon" src="img/GitHub-Mark.png"/>
+            </a>
+            <a href="https://www.linkedin.com/in/camilo-acevedo-v/">
+              <img class="icon" src="img/linkedin.png"/>
+            </a>
+            <a href="https://twitter.com/camilojace">
+              <img class="icon" src="img/twitter.png"/>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/charlie.jpeg" alt="">
+            <h5>Carlos Andres Murcia Muñoz</h5>
+            <p class="font-weight-light mb-0">Musician & Full Stack Developer</p>
+            <a href="https://github.com/Charliemur2 ">
+              <img class="icon" src="img/GitHub-Mark.png"/>
+            </a>
+            <a href="https://www.linkedin.com/in/carlos-andres-murcia-munoz/">
+              <img class="icon" src="img/linkedin.png"/>
+            </a>
+            <a href="https://twitter.com/charliesoka">
+              <img class="icon" src="img/twitter.png"/>
+            </a>
+            
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="img/meco.jpeg" alt="">
+            <h5>Robinson Montes</h5>
+            <p class="font-weight-light mb-0">Bioengineer & Full Stack Developer</p>
+            <a href="https://github.com/mecomonteshbtn">
+              <img class="icon" src="img/GitHub-Mark.png"/>
+            </a>
+            <a href="https://www.linkedin.com/in/robinson-montes-g%C3%B3mez-2a046031/">
+              <img class="icon" src="img/linkedin.png"/>
+            </a>
+            <a href="https://twitter.com/mecomontes">
+              <img class="icon" src="img/twitter.png"/>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-12 last-container">
+          <h3>What comes next</h3>
+          <p>Implementing gamification elements begins with stats which be used to give badges, and rewards to the users. This app can provide input for personalization projects in which recommendation systems or rewards or badges are customized according to the specific skills acquired by the users.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="call-to-action text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <h2 class="mb-4">Take a look at the GitHub repository</h2>
+        </div>
+        <div class="col-lg-6 mx-auto">
+          <p>Clickme</p>
+          <a href="https://github.com/skillshare-mentorship/holberton-multipotentialities">
+            <img class="git-icon" src="img/github2.png"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Gamification-Project 2020. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-facebook fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

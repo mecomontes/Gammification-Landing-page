@@ -1,0 +1,192 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.8 (https://startbootstrap.com/themes/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  /*background: url("../img/bg-masthead.jpg") no-repeat center center;*/
+  background-size: cover;
+  padding-top: 14rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #002333;
+  /* background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: justify;
+  background-size: 20rem; */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* opacity: 0.2; */
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+header .container {
+  padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  header.masthead {
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  /*background: url("../img/bg-masthead.jpg") no-repeat center center;*/
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* opacity: 0.3; */
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.icon {
+  border-radius: 50%;
+  width: 30px;
+}
+.nav-item {
+  padding-left: 10px;
+}
+.git-icon {
+  width: 150px;
+}
+.summary {
+  width: 100%;
+  height: 70px;
+}
+#summary {
+  width: 95%;
+}
+.summary-container h3 {
+  padding-top: 20px;
+}
+#visualizations {
+  width: 30%;
+}
+#road{
+  width: 90%;
+  padding-top: 40px;
+}
+h3 {
+  padding-top: 35px;
+}
+.container {
+  padding-top: 30px;
+}
+.last-container {
+  padding-top: 50px;
+}
+.button-visual {
+  padding-top: 15px;
+}
+.button-road {
+  padding-top: 15px;
+}
+#logo-skill {
+  width: 8rem;
+  border-radius: 50%;
+}
+.logo-div {
+  display: flex;
+  padding-left: 30px;
+}
